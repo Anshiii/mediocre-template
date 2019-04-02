@@ -11,6 +11,9 @@ module.exports = {
     contentBase: './dist',
     hot: true,
   },
+  resolve: {
+    extensions: ['.ts', '.js', '.json'],
+  },
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
